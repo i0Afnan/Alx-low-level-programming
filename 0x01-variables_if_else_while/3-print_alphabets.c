@@ -9,17 +9,14 @@ int main(void)
 {
 	char lo = 'a', up = 'A';
 
-	for (; up <= 'Z';)
+	while (lo <= 'z')
 	{
-		for (; lo <= 'z'; lo++)
-		{
-			putchar(lo);
-		}
-		while (lo == 'z' && up <= 'Z')
-		{
-			putchar(up);
-			up++;
-		}
+		putchar(lo);
+		lo++;
+	}
+	for (; up <= 'Z'; up++)
+	{
+		putchar(up);
 	}
 
 	putchar('\n');
