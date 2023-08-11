@@ -11,7 +11,6 @@ int main(void)
 
 	while (up <= 'Z')
 	{
-		putchar(lo);
 		if (lo == 'z')
 		{
 			putchar(up);
@@ -19,6 +18,7 @@ int main(void)
 		}
 		else
 		{
+			putchar(lo);
 			lo++;
 		}
 	}
