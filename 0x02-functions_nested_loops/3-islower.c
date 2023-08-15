@@ -3,6 +3,8 @@
 /**
  * _islower - a funtion to detect lower/upper case character
  *
+ * @c: The value of the input passed by the function.
+ *
  * Return: 1 if c is lowercase, 0 otherwise
  */
 int _islower(int c)
