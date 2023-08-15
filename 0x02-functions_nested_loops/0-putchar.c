@@ -8,9 +8,9 @@
 int main(void)
 {
 	char put[] = "_putchar";
-	unsigned char i = '0';
+	int i = 0;
 
-	while (i < '8')
+	while (i < 8)
 	{
 		_putchar(put[i]);
 		i++;
