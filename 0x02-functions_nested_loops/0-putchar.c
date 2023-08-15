@@ -1,4 +1,3 @@
-#include <unistd.h>
 #include "main.h"
 
 /**
@@ -9,11 +8,13 @@
 int main(void)
 {
 	char put[] = "_putchar";
+	char i = '0';
 
-	for (int i = 0; i < 8; i++)
+	while (i < '8')
 	{
 		_putchar(put[i]);
-		_putchar('\n);
+		i++;
 	}
+	_putchar('\n');
 	return (0);
 }
