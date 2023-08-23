@@ -1,5 +1,4 @@
 #include "main.h"
-#include "_putchar.c"
 
 /**
  * *_strcat - a function that concatenates two strings
@@ -20,9 +19,10 @@ char *_strcat(char *dest, char *src)
 		size++;
 	}
 
-	for (n= 0; src[n]; n++)
+	for (n = 0; src[n]; n++)
 	{
-		dest[size++] = src[n];
+		dest[size + n] = src[n];
 	}
+	dest[size + n] = '\0';
 	return (dest);
 }
