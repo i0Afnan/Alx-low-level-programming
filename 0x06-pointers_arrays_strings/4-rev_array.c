@@ -1,5 +1,4 @@
 #include "main.h"
-#include "_putchar.c"
 
 /**
  * reverse_array - a function that revereses the content of an array
@@ -12,7 +11,7 @@
  */
 void reverse_array(int *a, int n)
 {
-	int i, tmp = 0;
+	int tmp = 0, i;
 
 	for (i = 0; i <= n; i++)
 	{
