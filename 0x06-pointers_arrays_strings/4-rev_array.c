@@ -2,7 +2,7 @@
 #include "_putchar.c"
 
 /**
- * reverse_array - a function that revereses the content of an array of integers
+ * reverse_array - a function that revereses the content of an array
  *
  * @a: Array of integers
  *
