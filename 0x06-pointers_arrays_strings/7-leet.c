@@ -17,7 +17,7 @@ char *leet(char *l)
 	{
 		for (j = 0; from[j]; j++)
 		{
-			if ( l[i] == from[j])
+			if (l[i] == from[j])
 				l[i] = to[j];
 
 		}
