@@ -3,11 +3,11 @@
 /**
  * lower - check if the letter is in lowercase
  *
- * @l: letter 
+ * @l: letter
  *
  * Return: 1 if letter is lowercase and 0 otherwise
  */
-int lower(int l)
+static int lower(int l)
 {
 
 	return (l >= 97 && l <= 122);
@@ -17,14 +17,14 @@ int lower(int l)
 /**
  * sep - detects seperator
  *
- * @d: char to detect
+ * @p: char to detect
  *
  * Return: 1 for sep 0 for none
  */
-int sep(char p)
+static int sep(char p)
 {
-	return (p == ',' || p == ';' || p == '.' || p == '!' || p == '?' || 
-			p == '"' || p == '(' || p == ')' || p == '{' || 
+	return (p == ',' || p == ';' || p == '.' || p == '!' || p == '?' ||
+			p == '"' || p == '(' || p == ')' || p == '{' ||
 			p == '}' || p == ' ' || p == '\n' || p == '\t');
 }
 
