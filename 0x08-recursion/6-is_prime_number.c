@@ -15,9 +15,9 @@ int _is_prime(int num, int m)
 		return (1);
 	}
 	else if (num % m == 0 || num <= 1)
-		{
-			return (0);
-		}
+	{
+		return (0);
+	}
 	else
 	{
 		return (_is_prime(num, m + 1));
