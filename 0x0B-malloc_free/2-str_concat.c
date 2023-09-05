@@ -15,10 +15,10 @@ char *str_concat(char *s1, char *s2)
 	char *con;
 
 	if (s1 == NULL)
-		s1 = '\0';
+		s1 = "\0";
 
 	if (s2 == NULL)
-		s2 = '\0';
+		s2 = "\0";
 
 	for (; s1[size1] != '\0'; size1++)
 		;
