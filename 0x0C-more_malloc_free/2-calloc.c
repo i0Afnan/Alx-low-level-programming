@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
  * *_memset - a function to fill memory with constant byte.
@@ -30,6 +31,7 @@ char *_memset(char *s, char b, unsigned int n)
  *
  * Return: nothing
  */
+
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	void *p;
