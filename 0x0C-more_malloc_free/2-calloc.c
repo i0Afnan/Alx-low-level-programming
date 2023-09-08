@@ -1,5 +1,26 @@
 #include "main.h"
-#include "0-memset.c"
+
+/**
+ * *_memset - a function to fill memory with constant byte.
+ *
+ * @s: pointer
+ *
+ * @b: constant byte
+ *
+ * @n: number of bytes
+ *
+ * Return: pointer
+ */
+char *_memset(char *s, char b, unsigned int n)
+{
+	char *pr = s;
+
+	while (n--)
+	{
+		*s++ = b;
+	}
+	return (pr);
+}
 
 /**
  * *_calloc - allocates memory for an array
