@@ -6,6 +6,8 @@
  * @s1: first string
  * @s2: second string
  * @n: bytes of s2
+ *
+ * Return: combined strings into s1
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
@@ -19,7 +21,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	for (; s1[size1] != '\0'; size1++)
 		;
-	
+
 	for (; s2[size2] != '\0'; size2++)
 		;
 
@@ -41,6 +43,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	}
 
 	p[i] = '\0';
-	return(p);
+	return (p);
 }
 
