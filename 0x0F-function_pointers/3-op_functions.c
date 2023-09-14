@@ -40,7 +40,7 @@ int op_mul(int a, int b)
 }
 
 /**
- * op_dev - division operation
+ * op_div - division operation
  *
  * @a: first number
  * @b: second number
