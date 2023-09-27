@@ -2,9 +2,9 @@
 
 /**
  * free_listint - frees a list
-
+ *
  * @head: the head of the list
-
+ *
  * Return: void
  */
 void free_listint(listint_t *head)
